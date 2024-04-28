@@ -1,0 +1,470 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+div.container
+{
+    width: 80%;
+    height: 270%;
+    position:absolute;
+    z-index: 2;
+    background-color: #25bfe6;
+    left:10%;
+}
+div.logo
+{
+    position:relative;
+    z-index: 1;
+    left:0%;
+    background-color: aqua;
+}
+
+div.menu ul{
+    background-color:rgb(18, 159, 215);
+    list-style-type:none;
+}
+div.menu ul li{
+    text-align:center;
+    width:239.7px;
+    height:30px;
+    line-height:45px;
+    display:inline-table;
+    position:relative;
+    transition: 0.5s;
+    z-index: 100;
+}
+div.menu ul li a{
+    text-decoration:none;
+    display:block;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
+div.menu ul.submenu ul.sub-menu{
+    left:200px;
+    bottom:-45px;
+    position:absolute;
+    display:none;
+}
+
+div.menu ul.submenu li:hover > ul.sub-menu{
+    display:block;
+}
+
+div.menu ul li:hover
+{
+    background-color:white;
+}
+div.menu ul li > .submenu{
+    display:none;
+}
+div.menu ul li:hover .submenu{
+    display:block;
+    position:absolute;
+}
+div.menu ul li > .sub-menu1{
+    display:none;
+}
+div.menu ul li:hover .sub-menu1{
+    display:block;
+    position:absolute;
+}
+div.menu ul li > .sub-menu2{
+    display:none;
+}
+div.menu ul li:hover .sub-menu2{
+    display:block;
+    position:absolute;
+}
+div.menu ul li > .sub-menu3{
+    display:none;
+}
+div.menu ul li:hover .sub-menu3{
+    display:block;
+    position:absolute;
+}
+
+h3.tintuc1
+{
+    position:absolute;
+    z-index:102;
+    background: linear-gradient(to top, #2573e8, #6bb8e2);
+    top:85%;
+    width:73%;
+    height:3%;
+    left:13%;
+    color:#e9eff0;
+    font-size:20px;
+    padding:10px;
+    border-radius:5px;
+}
+
+div.map
+{
+    z-index:121;
+    position:relative;
+    bottom:-237%;
+    left:30%;
+    width:20%;
+}
+
+
+div.chantrang
+{
+	left:10%;
+	width:80%;
+	height:40%;
+	bottom:-200%;
+	position:relative;
+	z-index:108;
+	background-color:#353535;
+}
+div.vienchantrang
+{
+	width:80%;
+	height:4%;
+	bottom:-200%;
+	position:relative;
+	z-index:118;
+	background-color:black;
+    left: 10%;
+}
+
+body{
+    background:none;
+    height:100%;
+}
+
+div.h3{
+    position:absolute;
+    z-index: 7;
+    top:60%;
+    left: 40%;
+}
+
+div.content{
+    margin-left:292px;
+    padding:2em;
+    margin-right:192px;
+    border:1px solid rgb(108, 109, 110);
+    background-color:rgb(254, 253, 250);
+    height:124%;
+    width: 70%;
+    position:absolute;
+    z-index: 2;
+    right:0%;
+    top:90.7%;
+}
+
+div.banner{
+    position:absolute;
+    z-index:5;
+    top:14.7%;
+}
+h1.chu1
+{
+    position:relative;
+	z-index:1;
+    top:1%;
+	left:15%;
+	color:red;
+	font-size:26px;
+}
+h2.chu0
+{
+    position:relative;
+	z-index:1;
+    top:2%;
+	color:blue;
+	font-size:28px;
+    font-weight:bold;
+}
+h2.chu1
+{
+    position:relative;
+	z-index:1;
+    top:3%;
+    font-weight:bold;
+}
+h2.chu2
+{
+    position:relative;
+	z-index:1;
+    top:3%;
+    font-weight:bold;
+}
+
+h3.chu1
+{
+    position:relative;
+	z-index:1;
+    top:3%;
+    font-weight:normal;
+}
+
+
+img.anh
+{
+	z-index:0;
+	position:relative;
+	left:18%;
+	top:4%;
+}
+
+
+img.fb
+{
+    position: relative;
+    z-index: 213;
+    top:165.5%;
+    left: 12%;
+}
+
+img.mail
+{
+    position: relative;
+    z-index: 213;
+    top:165.5%;
+    left: 12%;
+}
+
+img.yt
+{
+    position: relative;
+    z-index: 213;
+    top:165.8%;
+    left: 12%;
+}
+h2.chudau
+{
+    position:absolute;
+    z-index: 9;
+    color:rgb(254, 252, 252);
+    left:20%;
+    top:1%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1.chuhai
+{
+    position:absolute;
+    z-index: 9;
+    color:rgb(254, 252, 252);
+    left:20%;
+    top:3%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4
+{
+    position: relative;
+    z-index: 213;
+    top:188%;
+    left: 45%;
+    color:#fbfdfd;
+    width:60%;
+    width:20%;
+}
+
+h3.chu12
+{
+    position: relative;
+    z-index: 210;
+    top:158%;
+    left: 57%;
+    color:#fbfdfd;
+    width:40%;
+}
+
+
+body
+{
+    background-color: #99bce6;
+}
+
+h3.chu10
+{
+    position: relative;
+    z-index: 210;
+    top:130%;
+    left: 30%;
+    color:#fbfdfd;
+    width:60%;
+    width:20%;
+}
+
+h3.chu11
+{
+    position: relative;
+    z-index: 210;
+    top:127%;
+    left: 12%;
+    color:#fbfdfd;
+    width:60%;
+    width:20%;
+}
+
+h3.chu13
+{
+    position: relative;
+    z-index: 210;
+    top:124.5%;
+    left: 57%;
+    color:#fbfdfd;
+    width:60%;
+    width:20%;
+}
+
+#contact
+{
+    position: absolute;
+    z-index: 14;
+    top:300px;
+    left:14%;
+}
+
+input[type="text"] 
+{
+    width: 350px;
+    height:40px;
+}
+
+#contact1
+{
+    position: absolute;
+    z-index: 14;
+    top:300px;
+    left:50%;
+}
+
+#contact2
+{
+    position: absolute;
+    z-index: 14;
+    top:380px;
+    left:14%;
+}
+
+#contact3
+{
+    position: absolute;
+    z-index: 14;
+    top:380px;
+    left:50%;
+}
+
+#contact4
+{
+    position: absolute;
+    z-index: 14;
+    top:450px;
+    left: 30%;
+}
+
+#submit
+{
+    border: none;
+    position:absolute;
+    z-index: 16;
+    top:530px;
+    left:45%;
+}
+#submit input
+{
+    font-size: 20px;
+    width:70px;
+    height:30px;
+    border:none;
+    background-color:rgb(238, 102, 11);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+#submit input:hover
+{
+    background-color: rgb(6, 155, 213);
+}
+
+div.chu1
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:170%;
+    left:20%;
+    font-size: 22px;
+}
+
+div.chu2
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:175%;
+    left:20%;
+}
+
+div.contact
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:170%;
+    left:40%;
+    font-size: 22px;
+}
+
+div.tel
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:175%;
+    left:40%;
+}
+
+div.mail
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:178%;
+    left:40%;
+}
+
+div.mocua
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:170%;
+    left:60%;
+    font-size: 22px;
+}
+
+div.chu3
+{
+    color:#4F6F52;
+    position: absolute;
+    z-index: 14;
+    top:175%;
+    left:60%;
+}
+
+div.bieutuong
+{
+    position:absolute;
+    z-index: 90;
+    left:50%;
+    top:190%;
+}
+
+img.user
+{
+    position:relative;
+    z-index:90;
+    top:110%;
+    left:45%;
+    border-radius: 70%;
+}
